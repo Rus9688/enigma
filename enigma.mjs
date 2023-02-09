@@ -61,7 +61,8 @@ const Enigma = {
     }
 
 };
-export default Enigma
+export default
+{enigma: Enigma}
 
 window.enigma = Enigma;
 window.Buffer = Buffer;
